@@ -6,8 +6,23 @@
 
 Run the Vite dev server:
 
-```shellscript
-npm run dev
+```sh
+yarn dev
+```
+
+Migrate the database:
+
+```sh
+yarn db:migrate
+
+# optionally seed the database
+yarn db:seed
+```
+
+Reset seed data:
+
+```sh
+yarn db:seed:reset
 ```
 
 ## Deployment
